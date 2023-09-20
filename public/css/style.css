@@ -55,6 +55,7 @@ body {
     border-radius: 15px;
     display: block;
     text-align: center;
+    padding:30px;
 }
 
 .feeling_button:hover {
