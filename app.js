@@ -5,9 +5,11 @@ const app = express();
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.render('index.ejs');
+    res.render('index.ejs');
 });
 
-
+app.get('/select_feeling', (req, res) => {
+    res.render('select_feeling.ejs');
+});
 
 app.listen(3000);
