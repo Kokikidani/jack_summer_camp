@@ -100,7 +100,7 @@ body {
     background-color:#5553A9;
 }
 
-footer {
+.select_footer {
     background-image:url(../images/egrus_footer_background.png);
     background-size: cover;
     display: flex;
@@ -111,7 +111,7 @@ footer {
     width: 100%;
 }
 
-.button_footer {
+.select_button_footer {
     height:150px;
     width:150px;
     margin:40px;
@@ -173,4 +173,21 @@ footer {
 
 .play_text div h2{
     font-size: 3vmin;
+}
+
+.title_footer {
+    background-image:url(../images/egrus_footer_background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+    width: 100%;
+}
+
+.title_button_footer {
+    height:60px;
+    width:60px;
+    margin:14px;
 }
