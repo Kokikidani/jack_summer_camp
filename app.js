@@ -12,4 +12,9 @@ app.get('/select_feeling', (req, res) => {
     res.render('select_feeling.ejs');
 });
 
+
+app.get('/title.ejs', (req, res) => {
+  res.render('title.ejs');
+});
+
 app.listen(3000);

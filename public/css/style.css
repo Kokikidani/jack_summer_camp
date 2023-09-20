@@ -1,14 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+/* Place in your CSS file at the top of the document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
 .test {
     color:aqua;
 }
 
-.background {
+
+body {
+    background:url(../images/egrus_background.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+/*.background {
     background:url(../images/egrus_background.png);
     width: 100%;
     height: 100vh;
     background-size: cover;
-}
+    }*/
+
 
 .select_feeling_container {
 
@@ -101,4 +113,30 @@ footer {
     height:150px;
     width:150px;
     margin:40px;
+}
+
+
+.title-logo h3 {
+    margin-top:0;
+    }
+.title_logo{
+    color:rgb(82, 11, 11) ;
+    font-size: 30px;
+    font-family:'BhuTuka Expanded One', serif;
+    
+    text-align: center;
+    margin-top:0;
+    padding-top:100px;
+    
+}
+.title_content{
+    background-color:rgba(27, 27, 27, 0.35);
+    border-radius:15px;
+    color:white;
+    font-family: 'Yomogi', cursive;
+    font-size: 20px;
+    margin:60px 30px 30px;
+    padding:20px;
+    
+
 }
