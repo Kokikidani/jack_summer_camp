@@ -140,3 +140,35 @@ footer {
     
 
 }
+
+
+.play_background {
+    background-image: url("https://2.bp.blogspot.com/-SQIhcX-VuGU/VYJcctbmvnI/AAAAAAAAuYs/tUT6xP3CvY8/s800/mori_jungle.png");
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center center;
+}
+
+.play_text {
+    text-align: center;
+    display:block;
+    color: white;
+    white-space:nowrap;
+}
+
+.play_text div{
+    display: inline-block;
+    background-color:rgba(0,0,0,0.4);
+    padding: 10px;
+    position: fixed;
+    bottom: 10vmin;
+    transform: translateX(-50%);
+}
+
+.play_text div h1{
+    font-size: 5vmin;
+}
+
+.play_text div h2{
+    font-size: 3vmin;
+}
