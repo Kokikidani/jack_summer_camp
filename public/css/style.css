@@ -99,7 +99,7 @@ body {
 }
 
 footer {
-    background-image:url(../images/egrus_background.png);
+    background-image:url(../images/egrus_footer_background.png);
     background-size: cover;
     display: flex;
     flex-direction: row;

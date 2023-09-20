@@ -13,7 +13,7 @@ app.get('/select_feeling', (req, res) => {
 });
 
 
-app.get('/title.ejs', (req, res) => {
+app.get('/title', (req, res) => {
   res.render('title.ejs');
 });
 
