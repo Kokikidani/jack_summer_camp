@@ -52,9 +52,27 @@
 }
 
 .play_text div h1{
-    font-size: 5vmin;
+    font-size: 7vmin;
 }
 
 .play_text div h2{
-    font-size: 3vmin;
+    font-size: 4vmin;
+}
+
+#play_btn{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 60vw;
+    background: transparent;
+    border: none;
+}
+
+#play_btn img{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 40vw;
 }

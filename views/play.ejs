@@ -5,6 +5,14 @@
         <title>再生</title>
         <link rel="stylesheet" href="/css/style.css">
         <script src="/send_url.js"></script>
+        <script>
+            function hidden_button(){
+                document.getElementById("play_btn").style.visibility ="hidden";
+            }
+            function music1(){
+                document.getElementById("bgm1").play();
+            }
+        </script>
     </head>
     <body class="play_background">
         <div class="play_text">
@@ -13,5 +21,11 @@
                 <h2>お腹が膨らむのを感じて<br>ゆっくりと呼吸をしましょう。</h2>
             </div>
         </div>
+        <button id="play_btn" type="button" onclick="music1();hidden_btn()">
+            <img src="https://icon-pit.com/wp-content/uploads/2018/10/play_icon_764.png" alt="再生">
+        </button>
+        <audio id="bgm1">
+            <source src="https://res.cloudinary.com/code-kitchen/video/upload/v1555038697/posts/zk5sldkxuebny7mwlhh3.mp3" type="audio/mp3">
+        </audio>
     </body>
 </html>
