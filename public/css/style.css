@@ -182,6 +182,18 @@ body {
     background-image: url("../images/back_sad.jpg");
 }
 
+.home_btn{
+    padding:20px;
+    background: transparent;
+    border: none;
+}
+
+.home_btn img{
+    width: 15vw;
+    height: 15vw;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, .5));
+}
+
 .play_text {
     text-align: center;
     display:block;
