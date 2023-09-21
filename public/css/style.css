@@ -146,16 +146,40 @@ body {
     width:70%;
     margin-top:60px;
     padding:20px;
-    
-
 }
 
-
 .play_background {
-    background-image: url("https://2.bp.blogspot.com/-SQIhcX-VuGU/VYJcctbmvnI/AAAAAAAAuYs/tUT6xP3CvY8/s800/mori_jungle.png");
     background-size: cover;
     background-attachment: fixed; 
     background-position: center center;
+}
+
+.anx {
+    background-image: url("../images/back_anx.jpg");
+}
+
+.exc {
+    background-image: url("../images/back_exc.jpg");
+}
+
+.imp {
+    background-image: url("../images/back_imp.jpg");
+}
+
+.irr {
+    background-image: url("../images/back_irr.jpg");
+}
+
+.lon {
+    background-image: url("../images/back_lon.jpg");
+}
+
+.ner {
+    background-image: url("../images/back_ner.jpg");
+}
+
+.sad {
+    background-image: url("../images/back_sad.jpg");
 }
 
 .play_text {

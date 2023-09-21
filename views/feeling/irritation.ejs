@@ -5,12 +5,34 @@
     <title>イライラ</title>
     <link rel="stylesheet" href="/css/style.css" />
     <script src="/send_url.js"></script>
+    <script>
+      function hidden_btn(){
+          document.getElementById("play_btn").style.visibility ="hidden";
+      }
+      function music(){
+          document.getElementById("bgm").play();
+      }
+  </script>
   </head>
-  <body>
+
+  <body class="play_background irr">
     <!-- bodyタグの中に記述してください -->
-    <h2>ゆりかごの君へ</h2>
+      <div class="play_text">
+          <div>
+              <h1>呼吸のコントロール</h1>
+              <h2>お腹が膨らむのを感じて<br>ゆっくりと呼吸をしましょう。</h2>
+          </div>
+      </div>
+      <button id="play_btn" type="button" onclick="music();hidden_btn()">
+          <img src="/images/play_icon.png" alt="再生">
+      </button>
+      <audio id="bgm">
+        <source src="/audio/yurikago.wav" type="audio/wav" />
+      </audio>
+
+    <!--<h2>ゆりかごの君へ</h2>
     <audio controls>
       <source src="/audio/yurikago.wav" type="audio/wav" />
-    </audio>
+    </audio>-->
   </body>
 </html>
