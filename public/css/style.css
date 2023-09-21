@@ -69,11 +69,6 @@ body {
     width:100%;
     height:100%;
     color:black;
-<<<<<<< HEAD
-    font-size: ;
-}
-
-=======
     font-family: 'Yomogi', cursive;
 }
 
@@ -149,7 +144,6 @@ body {
 }
 
 
->>>>>>> d2621d408afe346e7018abbcca8178c9c137cc92
 .play_background {
     background-image: url("https://2.bp.blogspot.com/-SQIhcX-VuGU/VYJcctbmvnI/AAAAAAAAuYs/tUT6xP3CvY8/s800/mori_jungle.png");
     background-size: cover;
@@ -174,7 +168,6 @@ body {
 }
 
 .play_text div h1{
-<<<<<<< HEAD
     font-size: 7vmin;
 }
 
@@ -198,12 +191,7 @@ body {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     width: 40vw;
-=======
     font-size: 5vmin;
-}
-
-.play_text div h2{
-    font-size: 3vmin;
 }
 
 .title_footer {
@@ -221,5 +209,4 @@ body {
     height:60px;
     width:60px;
     margin:14px;
->>>>>>> d2621d408afe346e7018abbcca8178c9c137cc92
 }
