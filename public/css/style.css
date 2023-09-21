@@ -1,18 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+/* Place in your CSS file at the top of the document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
 .test {
     color:aqua;
 }
 
-.background {
+
+body {
+    background:url(../images/egrus_background.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+}
+/*.background {
     background:url(../images/egrus_background.png);
     width: 100%;
     height: 100vh;
     background-size: cover;
-}
+    }*/
+
 
 .select_feeling_container {
-
-    margin: 0 auto;
+    margin-top:200px;
+    margin-left:auto;
+    margin-right:auto;
     background-color:rgba(0 0 0 / 20%);
     width: 90%;
     border-radius: 15px;
@@ -86,8 +100,8 @@
     background-color:#5553A9;
 }
 
-footer {
-    background-image:url(../images/egrus_background.png);
+.select_footer {
+    background-image:url(../images/egrus_footer_background.png);
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -97,8 +111,83 @@ footer {
     width: 100%;
 }
 
-.button_footer {
+.select_button_footer {
     height:150px;
     width:150px;
     margin:40px;
+}
+
+
+.title-logo h3 {
+    margin-top:0;
+    }
+.title_logo{
+    color:rgb(82, 11, 11) ;
+    font-size: 30px;
+    font-family:'BhuTuka Expanded One', serif;
+    
+    text-align: center;
+    margin-top:0;
+    padding-top:100px;
+    
+}
+.title_content{
+    background-color:rgba(27, 27, 27, 0.35);
+    border-radius:15px;
+    color:white;
+    font-family: 'Yomogi', cursive;
+    font-size: 20px;
+    margin:60px 30px 30px;
+    padding:20px;
+    
+
+}
+
+
+.play_background {
+    background-image: url("https://2.bp.blogspot.com/-SQIhcX-VuGU/VYJcctbmvnI/AAAAAAAAuYs/tUT6xP3CvY8/s800/mori_jungle.png");
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center center;
+}
+
+.play_text {
+    text-align: center;
+    display:block;
+    color: white;
+    white-space:nowrap;
+}
+
+.play_text div{
+    display: inline-block;
+    background-color:rgba(0,0,0,0.4);
+    padding: 10px;
+    position: fixed;
+    bottom: 10vmin;
+    transform: translateX(-50%);
+}
+
+.play_text div h1{
+    font-size: 5vmin;
+}
+
+.play_text div h2{
+    font-size: 3vmin;
+}
+
+.title_footer {
+    background-image:url(../images/egrus_footer_background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+    width: 100%;
+}
+
+.title_button_footer {
+    height:60px;
+    width:60px;
+    margin:14px;
 }

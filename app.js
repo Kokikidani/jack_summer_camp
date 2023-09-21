@@ -50,4 +50,12 @@ app.get("/feeling/anxiety", (req, res) => {
   res.render("feeling/anxiety");
 });
 
+app.get('/play', (req, res) => {
+  res.render('play.ejs');
+});
+
+app.get('/title', (req, res) => {
+  res.render('title.ejs');
+});
+
 app.listen(3000);
