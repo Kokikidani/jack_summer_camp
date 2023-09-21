@@ -9,13 +9,16 @@
 
 
 body {
+    
     background:url(../images/egrus_background.png);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-size: cover;
-    margin: 0;
+    margin: 0;    
+    background-repeat:no-repeat;
 }
 /*.background {
+    background-color:#BCE1DF;
     background:url(../images/egrus_background.png);
     width: 100%;
     height: 100vh;
@@ -55,6 +58,7 @@ body {
     border-radius: 15px;
     display: block;
     text-align: center;
+    padding:30px;
 }
 
 .feeling_button:hover {
@@ -137,7 +141,10 @@ body {
     color:white;
     font-family: 'Yomogi', cursive;
     font-size: 20px;
-    margin:60px 30px 30px;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    margin-top:60px;
     padding:20px;
     
 
