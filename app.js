@@ -8,6 +8,8 @@ app.get('/', (req, res) => {
   res.render('index.ejs');
 });
 
-
+app.get('/title.ejs', (req, res) => {
+  res.render('title.ejs');
+});
 
 app.listen(3000);
