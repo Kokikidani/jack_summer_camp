@@ -58,4 +58,4 @@ app.get('/title', (req, res) => {
   res.render('title.ejs');
 });
 
-app.listen(3002);
+app.listen(3000);
