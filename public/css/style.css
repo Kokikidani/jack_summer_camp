@@ -129,7 +129,6 @@ body {
     color:rgb(82, 11, 11) ;
     font-size: 30px;
     font-family:'BhuTuka Expanded One', serif;
-    
     text-align: center;
     margin-top:0;
     padding-top:100px;
@@ -139,6 +138,7 @@ body {
     background-color:rgba(27, 27, 27, 0.35);
     border-radius:15px;
     color:white;
+    display:block;
     font-family: 'Yomogi', cursive;
     font-size: 20px;
     margin-left:auto;
@@ -199,10 +199,14 @@ body {
     display:block;
     color: white;
     white-space:nowrap;
+    font-family: 'Yomogi', cursive;
+   
+
 }
 
 .play_text div{
     display: inline-block;
+    border-radius:15px;
     background-color:rgba(0,0,0,0.4);
     padding: 10px;
     position: fixed;
