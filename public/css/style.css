@@ -199,11 +199,13 @@ body {
     display:block;
     color: white;
     white-space:nowrap;
+    font-family: 'Yomogi', cursive;
 }
 
 .play_text div{
     display: inline-block;
     background-color:rgba(0,0,0,0.4);
+    border-radius:15px;
     padding: 10px;
     position: fixed;
     bottom: 10vmin;
